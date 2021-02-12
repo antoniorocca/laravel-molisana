@@ -26,6 +26,85 @@ header {
   text-align: center;
 }
 
+.hide {
+  text-align: center;
+  visibility: hidden;
+}
+
+.hide .round {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: absolute;
+  top: 30%;
+  align-items: center;
+}
+
+.hide .round i {
+  font-size: 20px;
+  color: white;
+}
+
+.hide h2 {
+  width: 100%;
+  position: absolute;
+  top: 55%;
+  color: white;
+  font-size: 38px;
+}
+
+.large-img-cont1 {
+  height: 674px;
+  width: 50%;
+  position: relative;
+}
+
+.large-img-cont1:hover {
+  background-color: #113057;
+}
+
+.large-img-cont1:hover img {
+  opacity: 0.2;
+  transition: 0s ease-in-out;
+}
+
+.large-img-cont1:hover .hide {
+  visibility: visible;
+}
+
+.large-img-cont1 img {
+  width: 100%;
+}
+
+.large-img-cont2 {
+  height: 674px;
+  width: 50%;
+}
+
+.large-img-cont2 .small-img {
+  height: 337px;
+  width: 337px;
+  position: relative;
+}
+
+.large-img-cont2 .small-img:hover {
+  background-color: #113057;
+}
+
+.large-img-cont2 .small-img:hover img {
+  opacity: 0.2;
+  transition: 0s ease-in-out;
+}
+
+.large-img-cont2 .small-img:hover .hide {
+  visibility: visible;
+}
+
+.large-img-cont2 .small-img img {
+  width: 100%;
+}
+
 nav {
   height: 50px;
   background-color: #B1D281;
