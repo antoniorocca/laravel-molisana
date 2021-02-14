@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 .d-flex {
     display: flex;
@@ -82,5 +83,21 @@ header {
         img {
             width: 100%;
         }
+    }
+}
+.spot {
+    height: 60px;
+    background-color: #113057;
+    align-items: center;
+    p {
+        color: white;
+        font-size: 20px;
+    }
+}
+.box-img {
+    height: 300px;
+    width: 449px;
+    img {
+        width: 100%;
     }
 }
